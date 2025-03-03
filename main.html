@@ -7,6 +7,68 @@
 </head>
 
 <body>
+	<form method="post">
+        
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <br>
+        <br>
+
+        
+            <label>Gender:</label>
+            <br>
+            
+            <input type="radio" name="gender" id="gender_m" required >
+            <label for="gender_m">Male</label>
+            <br>
+
+            <input type="radio" name="gender" id="gender_f" required >
+            <label for="gender_f">Female</label>
+            <br>
+            <br>
+
+            <label for="cars">CarBrands: </label>
+            <select name="cars" id="cars"  required>
+            <option value="">--Please choose an option--</option>
+            <option value="mahindra">Mahindra</option>
+            <option value="tata">Tata</option>
+            <option value="maruti">Maruti</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="Age" required>
+            <br>
+            <br>
+
+            <label for="dob">DOB:</label>
+            <input type="date" name="dob" id="dob" required>
+            <br>
+            <br>
+
+            <label for="tel">Phone Number:</label>
+            <input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx">
+            <br>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+            <br>
+            <br>
+
+            <label for="tos">I agree to the TOS</label>
+            <input type="checkbox" name="tos" id="tos" required>
+            <br>
+            <br>
+
+
+    </form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
